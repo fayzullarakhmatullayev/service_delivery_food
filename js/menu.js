@@ -1,5 +1,5 @@
 const cardsMenu = document.querySelector('.cards-menu');
-const changeTitle = (restaurant) => {
+const changeTitle = restaurant => {
     const restaurantTitle = document.querySelector('.restaurant-title');
     restaurantTitle.textContent = restaurant.name;
     const cardInfo = document.querySelector('.card-info');
